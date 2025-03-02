@@ -1,0 +1,183 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --card: 224 71% 4%;
+    --card-foreground: 213 31% 91%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 213 31% 91%;
+
+    --primary: 210 100% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 222 47% 11%;
+    --secondary-foreground: 215 20% 65%; 
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 273 65% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+    --ring: 224 76% 48%;
+
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+    font-family: 'Inter', sans-serif;
+  }
+
+  body {
+    @apply bg-tech-dark text-foreground;
+    font-feature-settings: "ss01", "ss02", "cv01", "cv02", "cv03";
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  p {
+    @apply leading-7;
+  }
+}
+
+@layer components {
+  .typewriter {
+    @apply overflow-hidden whitespace-nowrap border-r-4 pr-5;
+    animation: typing 3.5s steps(30, end), blink-caret .75s step-end infinite;
+  }
+
+  .section-heading {
+    @apply text-3xl md:text-4xl font-bold relative mb-10 inline-block;
+  }
+
+  .section-heading::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-full h-1 bg-tech-blue rounded-full -mb-2 opacity-70;
+  }
+
+  .glass-card {
+    @apply bg-opacity-10 bg-white backdrop-blur-md border border-white/10 shadow-lg rounded-2xl;
+  }
+
+  .tech-card {
+    @apply glass-card p-6 transition-all duration-300 hover:shadow-[0_0_20px_rgba(0,163,255,0.3)];
+  }
+
+  .neon-border {
+    @apply relative rounded-xl overflow-hidden;
+  }
+
+  .neon-border::before {
+    content: '';
+    @apply absolute inset-0 bg-tech-gradient p-[1px] -z-10 animate-gradient-flow rounded-xl;
+  }
+
+  .button-tech {
+    @apply px-6 py-3 rounded-xl font-medium transition-all duration-300 relative overflow-hidden;
+  }
+
+  .button-primary {
+    @apply button-tech bg-tech-blue text-white shadow-lg hover:shadow-[0_0_20px_rgba(0,112,243,0.5)] hover:-translate-y-1;
+  }
+
+  .button-secondary {
+    @apply button-tech bg-tech-dark border border-tech-blue/30 text-tech-blue shadow-sm hover:shadow-[0_0_15px_rgba(0,112,243,0.3)] hover:border-tech-blue hover:-translate-y-1;
+  }
+
+  .link-tech {
+    @apply relative px-2 py-1 text-tech-light-blue hover:text-white transition-colors duration-300;
+  }
+
+  .link-tech::after {
+    content: '';
+    @apply absolute left-0 bottom-0 w-full h-[1px] bg-tech-light-blue scale-x-0 transition-transform duration-300 origin-right;
+  }
+
+  .link-tech:hover::after {
+    @apply scale-x-100 origin-left;
+  }
+
+  .skill-progress {
+    @apply h-2 bg-tech-dark/50 rounded-full overflow-hidden relative;
+  }
+
+  .skill-progress-bar {
+    @apply h-full absolute top-0 left-0 rounded-full bg-gradient-to-r from-tech-blue to-tech-purple transition-all duration-1000;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .text-gradient {
+    @apply bg-text-gradient bg-clip-text text-transparent;
+  }
+
+  .animate-delay-100 {
+    animation-delay: 100ms;
+  }
+
+  .animate-delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .animate-delay-300 {
+    animation-delay: 300ms;
+  }
+
+  .animate-delay-400 {
+    animation-delay: 400ms;
+  }
+
+  .animate-delay-500 {
+    animation-delay: 500ms;
+  }
+
+  .animate-delay-700 {
+    animation-delay: 700ms;
+  }
+
+  .animate-delay-1000 {
+    animation-delay: 1000ms;
+  }
+
+  .backdrop-blur-xl {
+    backdrop-filter: blur(16px);
+  }
+}
