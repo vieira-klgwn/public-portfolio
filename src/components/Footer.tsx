@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
             
             <div className="flex space-x-4">
               <a 
-                href="#" 
+                href="https://github.com/vieira-klgwn" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-2 rounded-full bg-tech-dark/70 hover:bg-tech-blue/20 text-secondary-foreground hover:text-tech-light-blue transition-all"
@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
                 <Github size={20} />
               </a>
               <a 
-                href="#" 
+                href="https://www.linkedin.com/in/ntwali-isimbi-vieira-2b1213302/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-2 rounded-full bg-tech-dark/70 hover:bg-tech-blue/20 text-secondary-foreground hover:text-tech-light-blue transition-all"
@@ -51,7 +51,7 @@ const Footer: React.FC = () => {
                 <Linkedin size={20} />
               </a>
               <a 
-                href="#" 
+                href="https://x.com/IsimbiNtwali" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-2 rounded-full bg-tech-dark/70 hover:bg-tech-blue/20 text-secondary-foreground hover:text-tech-light-blue transition-all"
@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
                 <Twitter size={20} />
               </a>
               <a 
-                href="mailto:ntwali@example.com" 
+                href="mailto:ntwaliisimbivieira@gmail.com" 
                 className="p-2 rounded-full bg-tech-dark/70 hover:bg-tech-blue/20 text-secondary-foreground hover:text-tech-light-blue transition-all"
                 aria-label="Email"
               >

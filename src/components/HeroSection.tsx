@@ -92,10 +92,10 @@ const HeroSection: React.FC = () => {
             </div>
             
             <div className="flex items-center gap-4 pt-2 animate-delay-700">
-              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-tech-light-blue transition-colors">
+              <a href="https://github.com/vieira-klgwn" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-tech-light-blue transition-colors">
                 <Github size={24} />
               </a>
-              <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-tech-light-blue transition-colors">
+              <a href="https://www.linkedin.com/in/ntwali-isimbi-vieira-2b1213302/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-tech-light-blue transition-colors">
                 <Linkedin size={24} />
               </a>
             </div>
