@@ -31,6 +31,7 @@ const SkillsSection: React.FC = () => {
     { name: 'Express', level: 85, category: 'frameworks' },
     { name: 'TensorFlow', level: 70, category: 'frameworks' },
     { name: 'Prisma ORM', level: 80, category: 'frameworks' },
+    { name: 'Springboot', level: 97, category: 'frameworks' },
     
     { name: 'MySQL', level: 85, category: 'databases' },
     { name: 'PostgreSQL', level: 80, category: 'databases' },
