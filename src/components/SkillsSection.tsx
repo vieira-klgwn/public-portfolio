@@ -29,9 +29,9 @@ const SkillsSection: React.FC = () => {
     { name: 'Next.js', level: 85, category: 'frameworks' },
     { name: 'Node.js', level: 90, category: 'frameworks' },
     { name: 'Express', level: 85, category: 'frameworks' },
-    { name: 'TensorFlow', level: 70, category: 'frameworks' },
+    { name: 'TensorFlow', level: 80, category: 'frameworks' },
     { name: 'Prisma ORM', level: 80, category: 'frameworks' },
-    { name: 'Springboot', level: 97, category: 'frameworks' },
+    { name: 'SpringBoot', level: 97, category: 'frameworks' },
     
     { name: 'MySQL', level: 85, category: 'databases' },
     { name: 'PostgreSQL', level: 80, category: 'databases' },
@@ -41,8 +41,8 @@ const SkillsSection: React.FC = () => {
     { name: 'Figma', level: 80, category: 'tools' },
     { name: 'Blender', level: 70, category: 'tools' },
     { name: 'DaVinci Resolve', level: 75, category: 'tools' },
-    { name: 'Adobe Illustrator', level: 70, category: 'tools' },
-    { name: 'Adobe Photoshop', level: 65, category: 'tools' },
+    { name: 'Adobe Illustrator', level: 83, category: 'tools' },
+    { name: 'Adobe Photoshop', level: 87, category: 'tools' },
     { name: 'Penetration Testing', level: 80, category: 'tools' },
   ];
 
