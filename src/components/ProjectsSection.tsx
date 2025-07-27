@@ -88,7 +88,7 @@ const ProjectsSection: React.FC = () => {
       title: "Web3 Dapp Starter",
       description: "A web3 dapp that can help anyone who wants to make any dapp with a single click. The dapps made by this starter are automatically added to any public block-chain, and also give feature of managing the dapp without any code experience.",
       image: "/web3.jpg",
-      category: "AI",
+      category: "Web 3",
       technologies: ["Web3", "BlockChain", "Dapp", "Solidity"],
       liveUrl: "#",
       githubUrl: "#",
