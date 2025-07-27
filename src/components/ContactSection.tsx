@@ -100,10 +100,10 @@ const onSubmit = async (data: FormData) => {
                   <div>
                     <h4 className="text-sm text-secondary-foreground mb-1">Phone</h4>
                     <a
-                      href="tel:+250788600099"
+                      href="tel:+250796852943"
                       className="text-tech-light-blue hover:text-tech-blue transition-colors"
                     >
-                      +250 (788) 600-099
+                      +250 (796) 852-943
                     </a>
                   </div>
                 </div>
