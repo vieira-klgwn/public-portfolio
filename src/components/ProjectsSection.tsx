@@ -75,7 +75,7 @@ const ProjectsSection: React.FC = () => {
     },
     {
       id: 6,
-      title: "AI Image Recognition API(Project Still Under dev)",
+      title: "AI Image Recognition API (Project Still Under dev)",
       description: "A REST API that uses deep learning models to identify objects and scenes in images with high accuracy.",
       image: "/facial-recognition-collage-concept_23-2150038898.jpg",
       category: "AI",
@@ -85,13 +85,13 @@ const ProjectsSection: React.FC = () => {
     },
     {
       id: 7,
-      title: "Web3 Dapp Starter",
+      title: "Web3 Dapp Starter (Project still under dev)",
       description: "A web3 dapp that can help anyone who wants to make any dapp with a single click. The dapps made by this starter are automatically added to any public block-chain, and also give feature of managing the dapp without any code experience.",
       image: "/web3.jpg",
       category: "Web 3",
       technologies: ["Web3", "BlockChain", "Dapp", "Solidity"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/vieira-klgwn/dapp-commence.git",
     }
   ];
 
@@ -112,7 +112,7 @@ const ProjectsSection: React.FC = () => {
             Recent <span className="text-gradient">Work</span>
           </h2>
           <p className="text-secondary-foreground max-w-2xl mx-auto opacity-0 animate-fade-in animate-delay-200">
-            Explore my latest projects that showcase my technical skills and creative problem-solving across various domains.
+            Explore my latest projects that showcase my technical skills and creative problem-solving across various domains.Ooops, Some links will not work as expected.
           </p>
         </div>
 
