@@ -53,8 +53,9 @@ const Navbar: React.FC = () => {
               </button>
             ))}
             <a 
-              href="#resume" 
+              href="/cv_ntwali_isimbi_vieira.pdf" 
               className="button-primary ml-3"
+              download
             >
               Resume
             </a>
@@ -87,8 +88,9 @@ const Navbar: React.FC = () => {
           </button>
         ))}
         <a 
-          href="#resume" 
+          href="/cv_ntwali_isimbi_vieira.pdf" 
           className="button-primary mt-6"
+          download
         >
           Resume
         </a>
